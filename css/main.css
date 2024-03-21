@@ -20,23 +20,6 @@
 
 /* Common */
 
-body::before {
-  content: 'PC2 (1921px~)';
-  display: block;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
-  width: 200px;
-  height: 60px;
-  background: slateblue;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-align: center;
-}
-
 body {
   color: var(--gray1);
   font-family: NanumSquare, Manrope, sans-serif;
@@ -951,10 +934,6 @@ body {
 
 @media screen and (max-width: 1920px) {
 
-  body::before {
-    content: 'PC1 (~1920px)';
-  }
-
   /* Header */
 
   #header #gnb>li>a {
@@ -1024,9 +1003,6 @@ body {
 
 /********** Tab **********/
 @media screen and (max-width: 1450px) {
-  body::before {
-    content: 'Tab (~1450x)';
-  }
 
   /* Header */
 
@@ -1412,9 +1388,6 @@ body {
 
 /********** Mobile **********/
 @media screen and (max-width: 550px) {
-  body::before {
-    content: 'Mobile (~550px)';
-  }
 
   /* Index - Common */
 
